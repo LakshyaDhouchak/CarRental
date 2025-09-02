@@ -25,6 +25,5 @@ public class Car {
 
     private Double pricePerDay;
     private boolean available;
-    
 
 }
