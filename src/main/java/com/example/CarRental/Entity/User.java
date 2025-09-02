@@ -1,5 +1,7 @@
 package com.example.CarRental.Entity;
 
+import com.example.CarRental.Enum.Role;
+
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
 import jakarta.persistence.EnumType;
@@ -29,7 +31,7 @@ public class User {
     private String phoneNo;
 
     @Enumerated(EnumType.STRING)
-    private String Role;
+    private Role role;
 
 
 }
